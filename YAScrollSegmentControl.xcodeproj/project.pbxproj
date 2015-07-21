@@ -13,6 +13,7 @@
 		01978B8D1B5E4135008231F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01978B8B1B5E4135008231F9 /* Main.storyboard */; };
 		01978B8F1B5E4135008231F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01978B8E1B5E4135008231F9 /* Assets.xcassets */; };
 		01978B921B5E4135008231F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01978B901B5E4135008231F9 /* LaunchScreen.storyboard */; };
+		01978B9C1B5E4172008231F9 /* YAScrollSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 01978B9B1B5E4172008231F9 /* YAScrollSegmentControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		01978B8E1B5E4135008231F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01978B911B5E4135008231F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01978B931B5E4135008231F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01978B9A1B5E4172008231F9 /* YAScrollSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAScrollSegmentControl.h; sourceTree = "<group>"; };
+		01978B9B1B5E4172008231F9 /* YAScrollSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAScrollSegmentControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		01978B811B5E4135008231F9 /* YAScrollSegmentControl */ = {
 			isa = PBXGroup;
 			children = (
+				01978B991B5E4172008231F9 /* Source */,
 				01978B851B5E4135008231F9 /* AppDelegate.h */,
 				01978B861B5E4135008231F9 /* AppDelegate.m */,
 				01978B881B5E4135008231F9 /* ViewController.h */,
@@ -78,6 +82,15 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		01978B991B5E4172008231F9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				01978B9A1B5E4172008231F9 /* YAScrollSegmentControl.h */,
+				01978B9B1B5E4172008231F9 /* YAScrollSegmentControl.m */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01978B9C1B5E4172008231F9 /* YAScrollSegmentControl.m in Sources */,
 				01978B8A1B5E4135008231F9 /* ViewController.m in Sources */,
 				01978B871B5E4135008231F9 /* AppDelegate.m in Sources */,
 				01978B841B5E4135008231F9 /* main.m in Sources */,
