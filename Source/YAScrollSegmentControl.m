@@ -272,7 +272,7 @@ static const CGFloat defaultGradientPercentage = 0.2;
 
     if (!self.currentView) {
         self.currentView = [[UIView alloc] init];
-        self.currentView.backgroundColor = nRGBToColor(0x268bff);
+        self.currentView.backgroundColor = [UIColor colorWithRed:0.149f green:0.533f blue:1.000f alpha:1.00f];
         self.currentView.layer.cornerRadius = (rect.size.height + 5.0) / 2.0;
         self.currentView.tag = -1;
         [self.scrollView insertSubview:self.currentView atIndex:0];
